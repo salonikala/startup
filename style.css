@@ -1,0 +1,739 @@
+/* <!---index---> */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+.logo {
+    float: left;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-top: 12px;
+    color: black;
+    font-size: 1.3rem;
+    letter-spacing: 4px;
+
+}
+
+ul {
+    display: flex;
+    padding: 15px;
+    float: right;
+
+}
+
+.top {
+    text-decoration: none;
+    padding: 8px;
+    color: black;
+    font-size: larger;
+}
+
+img {
+    height: 550px;
+}
+
+.bottom {
+    text-decoration: none;
+    padding: 8px;
+    color: black;
+    font-size: larger;
+}
+
+.icon {
+    padding: 3px;
+}
+
+.h1 {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color: white;
+    font-size: 4rem;
+}
+
+.p1 {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    color: white;
+    font-size: 20px;
+}
+
+.b1 {
+    position: absolute;
+    color: rgb(113, 106, 106);
+    padding: 16px;
+    top: 70%;
+    left: 10%;
+    border: none;
+    font-size: large;
+    letter-spacing: 1px;
+    background-color: rgb(192, 180, 180);
+}
+
+.b1:hover {
+    background-color: darkgrey;
+}
+
+.A1 {
+    top: 82%;
+    position: absolute;
+    left: 10%;
+}
+
+.A2 {
+    top: 82%;
+    position: absolute;
+    left: 12%;
+}
+
+.A3 {
+    top: 82%;
+    position: absolute;
+    left: 14%;
+}
+
+.A4 {
+    top: 82%;
+    position: absolute;
+    left: 16%;
+}
+
+.A5 {
+    top: 82%;
+    position: absolute;
+    left: 18%;
+}
+
+.A6 {
+    top: 82%;
+    position: absolute;
+    left: 20%;
+}
+
+
+/* <!---index end---> */
+/* <!---about---> */
+header {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.card {
+    display: flex;
+    border: 30px;
+    height: 1px solid black;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.innercard {
+    text-align: center;
+}
+
+.img {
+    height: auto;
+    width: 500px;
+    border-radius: 10%;
+}
+
+.about {
+    padding-top: 80px;
+    height: 400px;
+    padding-right: 30px;
+}
+
+.para {
+    font-size: 1.2rem;
+    padding-left: 20px;
+}
+
+h3 {
+    font-size: 2rem;
+    padding-left: 20px;
+}
+
+.a1 {
+    background-color: black;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    margin-top: 30px;
+    display: inline-block;
+    margin-left: 18px;
+}
+
+.a1:hover {
+    background-color: grey;
+    color: black;
+}
+
+.left {
+    float: left;
+}
+.p3{
+    text-align: center;
+}
+/* <!---about end---> */
+/* <!---team---> */
+.carrd {
+    justify-content: space-evenly;
+    display: flex;
+    padding-left: 4px;
+    padding-bottom: 40px;
+}
+.h2{
+    text-align: center;
+}
+.innercarrd {
+    border: 1px solid rgb(226, 222, 222);
+    width: 300px;
+    box-shadow: 2px 2px 1px 1px rgb(177, 176, 176);
+    padding: 10px;
+}
+
+.inner {
+    width: 100%;
+    height: 200px;
+}
+
+.p5 {
+    font-size: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.para {
+    font-size: large;
+    margin-top: 20px;
+    font-family: "Raleway", sans-serif;
+    padding-left: 20px;
+}
+
+.h4 {
+    font-family: "Raleway", sans-serif;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.h5 {
+    font-family: "Raleway", sans-serif;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.b2 {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 16px;
+    text-align: center;
+    border: none;
+}
+
+.b2:hover {
+    background-color: lightgrey;
+}
+
+.footer {
+    height: 230px;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    color: white;
+}
+
+.number {
+    font-size: 1.7rem;
+    margin: 100px;
+}
+
+.s1 {
+   padding-left: 20px;
+    font-size:2rem;
+}
+
+/* <!---team end---> */
+/* <!---work---> */
+.p7 {
+    font-size: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.one {
+    height: auto;
+    padding: 1px;
+}
+
+.image {
+    margin-left: 60px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+/* <!---work end---> */
+/* <!---pricing---> */
+.D1 {
+    height: 350px;
+    width: 100%;
+    background-color: rgb(225, 225, 225);
+
+}
+
+h1 {
+    font-size: 1.4rem;
+}
+
+.D2 {
+    height: 350px;
+    width: 49%;
+    float: left;
+}
+
+.D3 {
+    width: 49%;
+    float: right;
+    height: 350px;
+    padding-top: 30px;
+}
+
+.p6 {
+    font-size: 1.1rem;
+    padding: 20px;
+}
+
+.sa {
+    padding-top: 30px;
+}
+
+.photo {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 3px;
+}
+
+.had {
+    padding: 50px;
+    font-size: 30px;
+}
+
+.graph {
+    padding: 5px;
+    font-size: 1.1rem;
+}
+
+.subpercent {
+    padding: 4px;
+}
+
+.d1 {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(99, 99, 99);
+    text-align: center;
+    overflow: hidden;
+}
+
+.H6 {
+    color: white;
+    font-size: 30px;
+    padding: 30px;
+}
+
+.P6 {
+    color: white;
+    font-size: 20px;
+}
+
+.C {
+    border: 1px solid black;
+    height: 600px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+}
+
+.C1 {
+    border: 1px solid black;
+    width: 300px;
+    margin-left: 50px;
+    height: 500px;
+    margin-top: 40px;
+}
+
+.C2 {
+    border: 1px solid black;
+    width: 300px;
+    margin-left: 30px;
+}
+
+.C3 {
+    border: 1px solid black;
+    width: 300px;
+    margin-left: 50px;
+    height: 500px;
+    margin-top: 40px;
+}
+
+.L2 {
+    border: bottom;
+    background-color: black;
+}
+
+.T1 {
+    padding: 50px;
+}
+
+.TATA {
+    width: 350px;
+    height: 500px;
+}
+
+.tata {
+    width: 350px;
+    height: 530px;
+}
+
+.DI {
+    display: flex;
+    padding-top: 20px;
+}
+
+.B1 {
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.T4 {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+.T5 {
+    background-color: red;
+    color: white;
+    font-size: 30px;
+}
+
+.btn {
+    border-bottom: 1px solid lightgrey;
+}
+
+.btn1 {
+    background-color: rgb(221, 221, 221);
+}
+
+/* <!---pricing end---> */
+/* <!---contact---> */
+.d2 {
+    background-color: #f1f1f1;
+    overflow: hidden;
+    width: 100%;
+
+}
+
+.H1 {
+    font-size: 30px;
+    padding: 20px;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+}
+
+.P1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.let {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.d3 {
+    width: 100%;
+    padding: 20px;
+}
+
+.P2 {
+    padding: 20px;
+}
+
+form {
+    margin: 21px;
+    padding: 10px;
+}
+
+#fname {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid lightgray;
+}
+
+#email {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid lightgray;
+}
+
+#sub {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid lightgray;
+}
+
+#mes {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid lightgray;
+}
+
+.map {
+    padding: 15px;
+}
+
+.b3 {
+    margin-left: 30px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+
+.b3:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+.footer1 {
+    background-color: black;
+    height: 250px;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.b4 {
+    padding: 15px;
+    margin-left: 620px;
+    margin-top: 60px;
+}
+
+.ICONS {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.ONE {
+    color: white;
+}
+
+.PP {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    color: white;
+}
+
+.TO {
+    text-decoration: none;
+    color: black;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  .side{
+   visibility: hidden;
+  }
+  @media screen and (max-height: 768px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  .side{
+    visibility: visible;
+  }
+/* <---contact end---> */
+@media screen and (max-width:768px) {
+    .d2 {
+        width: 100%;
+    }
+
+    .image {
+        width: 100%;
+        padding-right: 8%;
+        margin-left: 10px;
+    }
+    .image .one{
+        width: 100%;
+    }
+
+    .main {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .fixed {
+        display: none;
+    }
+
+    .img {
+        height:auto;
+        width: 100%;
+        padding-top: 15px;
+        border-radius: 20px;
+       
+    }
+    .main1{
+    padding-top:30%;
+    }
+    .about {
+        width: 100%;
+    }
+
+    .card {
+        display: block;
+    }
+
+    .h1 {
+        font-size: 2rem;
+        top: 26%;
+    }
+
+    .p1 {
+        top: 35%;
+    }
+
+    .b1 {
+        top: 44%;
+        padding: 10px;
+    }
+
+    .A1 {
+        top: 54%;
+    }
+
+    .carrd {
+        display: block;
+        /* padding-left:10%; */
+        width: 100%;
+       
+    }
+
+    .innercarrd {
+        width: 100%;
+        padding-bottom: 4px;
+    }
+
+    .footer {
+        display: block;
+        height: 650px;
+        width: auto;
+        text-align: center;
+    }
+
+    .D2 {
+        width: 100%;
+        height: 200px;
+    }
+   .p6 {
+        align-items: center;
+    }
+     .cas{
+        text-align: center;
+     }
+    .D3 {
+        width:94%;
+        float: right;
+        padding-top: 80px;
+        height:auto;
+    }
+    .main1{
+        width: 100%;
+    }
+    .d1 {
+        width: 100%;
+        display: block;
+    }
+
+    .DI {
+        display:block;
+        height: 100%;
+        width: 100%;
+    }
+
+    .T2 {
+        padding-right: 100px;
+    }
+
+    .T4 {
+        width: 100%;
+    }
+
+    .D1 {
+        height: 550px;
+    }
+
+    .T1 {
+        width: 100%;
+        padding: 0%;
+        /* padding-left: 5%; */
+        padding-bottom: 10px;
+    }
+    .TATA{
+        width: 100%;
+    }
+    .tata{
+        width: 100%;
+    }
+}
+@media screen and (max-width:820px){
+    .main{
+        width: 100%;
+    }
+}
