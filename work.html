@@ -7,12 +7,37 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 <body>
+    <div class="bg">
+        <a href="" class="logo" id="logo">LOGO</a>
+        <ul class="fixed">
+           <li> <a href="./about.html" class="bottom">ABOUT</a></li>
+        <li> <a href="./team.html" class="bottom"><i class="fas fa-user"
+                    style="color: black; padding-right: 2px;"></i>TEAM</a></li>
+        <li> <a href="./work.html" class="bottom"><i class="fas fa-hospital-alt"
+                    style="color:black; padding-right: 2px;"></i>WORK</a></li>
+        <li> <a href="./pricing.html" class="bottom"><i class="fas fa-dollar-sign"
+                    style="color:black; padding-right: 2px;"></i>PRICING</a></li>
+        <li> <a href="./contact.html" class="bottom"><i class="fas fa-envelope"
+                    style="color:black; padding-right: 2px;"></i>CONTACT</a></li>
+        </ul>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn d-lg-none d-inline-block" onclick="closeNav()">&times;</a>
+            <a href="#">ABOUT</a>
+            <a href="#">TEAM</a>
+            <a href="#">WORK</a>
+            <a href="#">PRICING</a>
+            <a href="#">CONTACT</a>
+          </div>
+          <div class="side">
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+          </div>
+    </div>
     <div class="main">
-        <h2 class="h2">OUR WORK</h2>
+        <h2 class="cl">OUR WORK</h2>
         <p class="p7">What we've done for people</p>
     </div>
     <div class="image">

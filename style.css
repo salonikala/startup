@@ -255,7 +255,6 @@ h3 {
 
 .number {
     font-size: 1.7rem;
-    /* margin: 100px; */
     padding: 8%;
 }
 
@@ -279,18 +278,20 @@ h3 {
 }
 
 .image {
-    padding-left: 7%;
     padding-bottom: 20px;
     padding-top: 20px;
+    overflow: hidden;
 }
-
+.cl{
+    text-align: center;
+    padding-top: 4%;
+}
 /* <!---work end---> */
 /* <!---pricing---> */
 .D1 {
     height: 350px;
     width: 100%;
     background-color: rgb(225, 225, 225);
-
 }
 
 h1 {
@@ -326,7 +327,7 @@ h1 {
 }
 
 .had {
-    padding: 50px;
+    padding: 4%;
     font-size: 30px;
 }
 
@@ -340,7 +341,7 @@ h1 {
 }
 
 .d1 {
-    height: 100%;
+    height:auto;
     width: 100%;
     background-color: rgb(99, 99, 99);
     text-align: center;
@@ -392,30 +393,19 @@ h1 {
     border: bottom;
     background-color: black;
 }
-
-.T1 {
-    padding: 2%;
-    margin-top: 8px;
-    width: 100%;
-}
-
 .TATA {
     width: 300px;
     height: 500px;
 }
-
-.T11 {
-    margin-top: 6%;
-}
-
 .tata {
     width: 300px;
-    height: 560px;
+    height: 500px;
 }
 
 .DI {
     display: flex;
     padding-top: 20px;
+   justify-content: space-evenly;
 }
 
 .B1 {
@@ -735,11 +725,6 @@ form {
         height: 100%;
         width: 100%;
     }
-
-    .T2 {
-        padding-right: 100px;
-    }
-
     .T4 {
         width: 100%;
     }
