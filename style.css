@@ -119,10 +119,6 @@ img {
 
 /* <!---index end---> */
 /* <!---about---> */
-header {
-    text-align: center;
-    padding-top: 20px;
-}
 
 .card {
     display: flex;
@@ -144,7 +140,7 @@ header {
 
 .about {
     padding-top: 80px;
-    height: 400px;
+    height: 500px;
     padding-right: 30px;
 }
 
@@ -281,6 +277,7 @@ h3 {
     padding-bottom: 20px;
     padding-top: 20px;
     overflow: hidden;
+    margin-left: 5%;
 }
 .cl{
     text-align: center;
@@ -616,10 +613,13 @@ form {
     .number {
         padding: 5%;
     }
-
+     .about{
+        height: auto;
+     }
     .image {
         width: 100%;
         padding: 0%;
+        margin: 0%;
     }
 
     .image .one {
