@@ -115,7 +115,10 @@ img {
     position: absolute;
     left: 20%;
 }
-
+header{
+    text-align: center;
+    padding-top: 4%;
+}
 
 /* <!---index end---> */
 /* <!---about---> */
@@ -131,20 +134,14 @@ img {
 .innercard {
     text-align: center;
 }
-
-.img {
-    height: auto;
-    width: 500px;
-    border-radius: 10%;
-}
-
 .about {
-    padding-top: 80px;
-    height: 500px;
-    padding-right: 30px;
+    padding-top:5%;
+    height: 345px;
+    /* padding-right: 30px; */
+    /* padding-bottom: 8%; */
 }
 
-.para {
+.p0 {
     font-size: 1.2rem;
     padding-left: 20px;
 }
@@ -171,8 +168,21 @@ h3 {
 
 .left {
     float: left;
+    height: 200px;
+    width: 62vh;
+    padding-left: 5%;
+}
+.img{
+    width: 100%;
+    height: auto;
+    border-radius: 5%;
 }
 
+.ri {
+    float: right;
+    height:20px;
+    width: 62vh;
+}
 .p3 {
     text-align: center;
 }
@@ -258,7 +268,6 @@ h3 {
     padding-left: 20px;
     font-size: 2rem;
 }
-
 /* <!---team end---> */
 /* <!---work---> */
 .p7 {
@@ -615,7 +624,7 @@ form {
         padding: 5%;
     }
      .about{
-        height: auto;
+        height:250px;
      }
     .image {
         width: 100%;
@@ -639,19 +648,15 @@ form {
     .img {
         height: auto;
         width: 100%;
-        padding-top: 15px;
-        border-radius: 20px;
-
+        /* padding: 15px; */
     }
-
+     .ri{
+        height: auto;
+        width: 100%;
+     }
     .main1 {
         padding-top: 30%;
     }
-
-    .about {
-        width: 100%;
-    }
-
     .card {
         display: block;
     }
